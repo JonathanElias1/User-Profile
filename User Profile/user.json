@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "name": "Jonathan Elias",
+  "username": "JON-E",
+  "email": "jonathanelias3223@gmail.com",
+  "address": {
+    "street": "123 Street",
+    "suite": "None",
+    "city": "Phoenix",
+    "zipcode": "85044",
+    "geo": {
+      "lat": "-68.6102",
+      "lng": "-47.0653"
+    }
+  },
+  "phone": "602-703-0569",
+  "website": "JON-E.com",
+  "company": {
+    "name": "JON-E Worldwide",
+    "catchPhrase": "Get the word out",
+    "type": "Production Company"
+  }
+}

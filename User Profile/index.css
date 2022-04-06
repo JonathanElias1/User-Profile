@@ -1,0 +1,71 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #7fc8f8;
+}
+
+* {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+#user-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+#user-profile-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(79, 216, 186);
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+#user-profile-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(231, 231, 21);
+  margin: 0.3rem;
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+}
+
+#user-profile-company > div {
+  margin: 0.8rem;
+  font-size: 1.1rem;
+}
+
+#user-profile-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: lightgreen;
+  margin: 0 5rem;
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+}
+
+#user-profile-contact > div {
+  margin: 0.5rem;
+}
+
+#user-profile-address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: rgb(255, 135, 239);
+  margin: 0 13rem;
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+  padding: 0.3rem;
+}
+
+#user-profile-address > div {
+  margin: 0.5rem;
+}
